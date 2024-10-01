@@ -1,5 +1,8 @@
-package com.sample.spring.bin;
+package com.sample.spring.bean1;
 
+import org.springframework.stereotype.Component;
+
+@Component("printerB")
 public class PrinterB implements Printer{
 
 	@Override

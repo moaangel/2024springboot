@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.sample.spring.bin.Config;
-import com.sample.spring.bin.Member;
+import com.sample.spring.bean.Config;
+import com.sample.spring.bean.Member;
 
 @SpringBootApplication
 public class Ex02DiApplication {

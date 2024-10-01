@@ -1,4 +1,4 @@
-package com.sample.spring.bin;
+package com.sample.spring.bean;
 
 public class PrinterA implements Printer{
 	
