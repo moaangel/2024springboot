@@ -16,7 +16,7 @@
     	</select>
     	
     	<insert id="writeDao" parameterType="Map">
-    		insert into simple_bbs(writer,title,content) values (#{param1},#{param2},#{param3})
+    		insert into simple_bbs(writer,title,content) values (#{writer},#{title},#{content})
     	</insert>
     	
     	<delete id="delete" parameterType="String">
