@@ -25,6 +25,5 @@ public class MemberTests {
 					.build();
 			repo.save(member);			
 		}
-
 	}
 }
