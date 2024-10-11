@@ -18,8 +18,6 @@ jobs:
           script_stop: true
           script: |
             cd /home/2024springboot
-            git config --global --add safe.directory /home/2024springboot
-            sudo chmod a+rwx .git/FETCH_HEAD
             git pull origin main
             cd EX11_Food
             chmod +x gradlew
