@@ -15,4 +15,10 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_PRIVATE_KEY }}
-          script: echo "접속완료"
+          script-stop: true
+          script: |
+            cd /home/ubuntu/2024springboot
+            git pull origin main
+            cd EX11_Food
+            chmod +x gradlew
+            ./gradlew bootwar
